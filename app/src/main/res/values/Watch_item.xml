@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="watch_item">
+      <item>Dawn of the Planet of the Apes 2014</item>
+<item>The Hobbit: The Battle of the Five Armies (2014)</item>
+        <item>Night at the Museum: Secret of the Tomb (2014)</item>
+        <item>Big Hero 6 (2014)</item>
+
+    </string-array>
+
+</resources>

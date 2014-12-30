@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/filmbackground"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/myTitle"
+        android:text="       My watch list"
+        android:textSize="40dp"
+        android:background="@drawable/whitecolor"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/myList"
+        android:paddingLeft="35dp"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Scoll to top"
+            android:textSize="40dp"
+            android:onClick="top"
+            />
+
+</LinearLayout>
